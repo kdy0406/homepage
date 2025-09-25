@@ -20,3 +20,50 @@
 </head>
 
 
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://drive.google.com/file/d/1j-hSCFnJHfSlmNTa_giKncEWi5t54xdQ/view?usp=drive_link" target="_blank">Résumé</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="writing.html">Writing</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <!-- Upper Section -->
+  <section id="map-section">
+    <div id="map" style="height: 500px;">
+    </div>
+  </section>
+
+  <script>
+  // Initialize map
+  var map = L.map('map').setView([20, 0], 2); // Center of the world, zoom level 2
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add pins for countries you have worked in
+  var locations = [
+    { name: "USA", coords: [38.9072, -77.0369] },
+    { name: "Germany", coords: [52.5200, 13.4050] },
+    { name: "South Korea", coords: [37.5665, 126.9780] },
+    { name: "Vietnam", coords: [14.0583, 108.2772] },
+    { name: "Timor-Leste", coords: [-8.8742, 125.7275] },
+    { name: "Bangladesh", coords: [23.6850, 90.3563] },
+    { name: "Indonesia", coords: [-0.7893, 113.9213] },
+    { name: "Sierra Leone", coords: [8.4606, -11.7799] }
+    // Add more locations as needed
+  ];
+
+  locations.forEach(function(loc) {
+    L.marker(loc.coords).addTo(map)
+      .bindPopup(loc.name);
+  });
+</script>
