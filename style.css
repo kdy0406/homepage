@@ -125,6 +125,18 @@ section h2 {
 }
 
 
+/* Projects Page */
+#map-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#map {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
 
 
 #contact {
