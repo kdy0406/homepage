@@ -87,7 +87,7 @@ section h2 {
 }
 
 /* Footer / Socials */
-.socials {
+/*.socials {
   margin-top: 20px;
 }
 
@@ -99,4 +99,38 @@ section h2 {
 
 .socials a:hover {
   color: #ffcc00;
+} */
+
+
+
+
+
+
+#contact {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 28px;
+  color: #333;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.socials a:hover {
+  color: #0073b1; /* LinkedIn blue as example, you can change per icon */
+  transform: scale(1.2);
 }
