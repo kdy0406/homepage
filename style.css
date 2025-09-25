@@ -1,15 +1,24 @@
+/* Global */
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   background: #f4f4f4;
   color: #222;
 }
 
+h1, h2 {
+  font-family: 'Lora', serif;
+}
+
+/* Navigation */
 nav {
   background: #111;
   color: #fff;
-  padding: 10px;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
@@ -20,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 15px;
+  margin-left: 25px;
 }
 
 nav a {
@@ -29,24 +38,65 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 80px;
   background: white;
 }
 
 .intro h1 {
   font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .highlight {
-  background: yellow;
+  background: #ffe66d;
   padding: 0 5px;
+  font-weight: bold;
 }
 
 .hero-img img {
   max-width: 300px;
   border-radius: 10px;
+}
+
+/* Sections */
+section {
+  padding: 60px 80px;
+}
+
+section:nth-child(even) {
+  background: #f7f7f7;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Footer / Socials */
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.socials a:hover {
+  color: #ffcc00;
 }
