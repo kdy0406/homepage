@@ -102,7 +102,27 @@ section h2 {
   color: #ffcc00;
 } */
 
+/* Writing Page */
+#posts ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+#posts li {
+  margin-bottom: 15px;
+}
+
+#posts a {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+#posts a:hover {
+  color: #0073b1;
+}
 
 
 
