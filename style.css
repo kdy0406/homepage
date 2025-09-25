@@ -1,0 +1,52 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #222;
+}
+
+nav {
+  background: #111;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: white;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+}
+
+.highlight {
+  background: yellow;
+  padding: 0 5px;
+}
+
+.hero-img img {
+  max-width: 300px;
+  border-radius: 10px;
+}
