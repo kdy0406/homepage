@@ -1,7 +1,8 @@
 /* GLOBAL */
 body {
   font-family: 'Lora', serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
   margin: 0;
   padding: 0;
   background: #f4f4f4;
