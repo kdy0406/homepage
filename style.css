@@ -51,22 +51,30 @@ header {
   background: white;
 }
 
-.intro h1 {
-  font-size: 2.5rem;
+/* Intro (name + icons) */
+.intro {
+  text-align: left; /* keep left alignment */
   margin-bottom: 20px;
 }
 
-.intro p {
-  font-size: 1.2rem;
-  line-height: 1.5;
+.intro h1 {
+  display: inline-block;
+  background: #ffeb3b; /* yellow highlight */
+  padding: 4px 8px;
 }
 
-.highlight {
-  background: #ffe66d;
-  padding: 0 5px;
-  font-weight: bold;
+.icons {
+  margin-top: 10px;
 }
 
+.icons a {
+  margin-right: 12px;
+  font-size: 1.4rem;
+  color: #333; /* adjust if needed */
+  text-decoration: none;
+}
+
+/* intro (photo) */
 .hero-img img {
   max-width: 300px;
   border-radius: 10px;
