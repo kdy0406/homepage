@@ -60,14 +60,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 90px;
+  padding: 90px;
   background: white;
 }
 
 /* Intro (name + icons) */
 .intro {
   text-align: left; /* keep left alignment */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .intro h1 {
