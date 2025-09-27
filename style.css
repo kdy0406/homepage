@@ -94,7 +94,7 @@ header {
 }
 
 
-/* home sections */
+/* body texts */
 section {
   padding: 60px 80px;
 }
@@ -133,7 +133,7 @@ section h2 {
 }
 
 
-/* Projects Page */
+/* PROJECTS */
 #map-section {
   max-width: 800px;
   margin: 0 auto;
@@ -146,7 +146,30 @@ section h2 {
   border-radius: 10px;
 }
 
+#projects {
+  padding: 60px 80px;
+}
 
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.project img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+
+
+/* CONTACT */
 #contact {
   text-align: center;
   padding: 50px 20px;
