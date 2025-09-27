@@ -60,7 +60,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px;
+  padding: 60px 90px;
   background: white;
 }
 
